@@ -1,0 +1,76 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+/* reset default style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* base style */
+
+/*body {
+  background: #fcfcfc;
+  font-family: "Istok Web", sans-serif;
+}*/
+body{
+  width:100%;
+  background-position:center;
+  background-size:cover;
+  height:109vh;
+  animation:animate 16s ease-in-out infinite;
+}
+@keyframes animate{
+  0%,100%{
+      background-image:url("https://kauveryhospital.com/blog/wp-content/uploads/2021/04/pizza-5179939_960_720.jpg");
+  }
+  25%{
+      background-image:url("https://www.tastingtable.com/img/gallery/what-makes-restaurant-burgers-taste-different-from-homemade-burgers-upgrade/l-intro-1662064407.jpg");
+  }
+  75%{
+      background-image:url("https://i.ytimg.com/vi/9y2B9n7vbYw/maxresdefault.jpg")
+  }
+  85%{
+      background-image:url("https://www.anifabiriyani.com/img/home-1/biriyani-spl.webp")
+  }
+  90%{
+      background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6l-7GNDmgqPSr7dxChIzFQEimOhfw_PLLtGOJ_P4Pjg&s")
+  }
+  75%{
+    background-image:url("https://i.ytimg.com/vi/9y2B9n7vbYw/maxresdefault.jpg")
+}
+25%{
+  background-image:url("https://i.ytimg.com/vi/E3Hxc7xteP0/sddefault.jpg");
+}
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Arial", sans-serif !important;
+  color:rgb(246, 139, 196);
+  font-weight:bold;
+  font-size:20px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1,
+h2 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #f16b98;
+}
+
+section {
+  padding: 60px 0px;
+}
