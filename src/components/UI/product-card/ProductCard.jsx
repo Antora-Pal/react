@@ -38,6 +38,10 @@ const ProductCard = (props) => {
         <button className="addTOCART__btn" onClick={addToCart}>
           Add to Cart
         </button>
+
+          <button className="buyNOW__btn" >
+          Buy Now
+        </button>
       </div>
     </div>
   );
