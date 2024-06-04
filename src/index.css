@@ -23,8 +23,9 @@ body{
   background-size:cover;
   height:109vh;
   animation:animate 16s ease-in-out infinite;
+   background-color:rgb(227, 122, 140);
 }
-@keyframes animate{
+/*@keyframes animate{
   0%,100%{
       background-image:url("https://kauveryhospital.com/blog/wp-content/uploads/2021/04/pizza-5179939_960_720.jpg");
   }
@@ -46,7 +47,7 @@ body{
 25%{
   background-image:url("https://i.ytimg.com/vi/E3Hxc7xteP0/sddefault.jpg");
 }
-}
+}*/
 h1,
 h2,
 h3,
